@@ -1,3 +1,10 @@
 from game.action import Action
+from output_service import OutputService
 
-# TODO: Define the DrawActorsAction class here
+class DrawActorsAction(OutputService):
+    
+    def __init__(self, output_service):
+        _output() = output_service
+
+    def execute(self):
+        pass
