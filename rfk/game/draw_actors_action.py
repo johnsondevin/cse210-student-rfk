@@ -10,4 +10,4 @@ class DrawActorsAction(Action):
         self._output.clear_screen()
         for i in cast:
             self._output.draw_actor(i)
-            self._output.flush_buffer()
+        self._output.flush_buffer()
